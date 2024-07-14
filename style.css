@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111938;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.mbody{
+    border-radius: 10px;
+    height: 500px;
+    width: 350px;
+    background: linear-gradient(135deg,rgb(13, 175, 13),#5b548a);
+}
+.searcharea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchbox{
+    margin-top: 30px;
+    width: 200px;
+    height:40px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
+}
+#sicon{
+    margin-top: 25px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(192, 166, 166);
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+#sunphase{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.sunimage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+.city{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+.lstimg{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+.hum{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+.speed{
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+.condition{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wspeed{
+    display: inline;
+}
+.none{
+    display: none;
+}
+.invalid{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.hide{
+    display: none;
+}
